@@ -11,15 +11,26 @@ new Vue({
         <p class="index-intro-paragraph">I’m <a href="https://www.linkedin.com/in/ssbramson" target="_blank">@ssbramson</a>, awards winning marketing executive &amp; software product owner, making companies &amp; clients happy since 2008 including,</p>
   
         <ul class="index-highlighted-clients">
-          <li class="index-highlighted-client">Procter &amp; Gamble</li>
-          <li class="index-highlighted-client">Google</li>
-          <li class="index-highlighted-client">Blackberry</li>
-          <li class="index-highlighted-client">MilkyWay</li>
-          <li class="index-highlighted-client">Thomson Reuters</li>
-          <li class="index-highlighted-client">Ford Motors</li>
-          <li class="index-highlighted-client">Spotify</li>
+          <li v-for="indexClientLink in indexClientLinks">
+            <a :href="indexClientLink.linkURL">{{ indexClientLink.linkTitle }}</a>
+          </li>
+          
         </ul>
       </div>
     </div>
   `,
+
+  data: {
+    indexClientLinks: [
+      { linkTitle: 'Procter & Gamble', linkURL: 'experience-procter_gamble.html' },
+      { linkTitle: 'Google', linkURL: 'experience-google.html' },
+      { linkTitle: 'Blackberry', linkURL: 'experience-blackberry.html' },
+      { linkTitle: 'Milkyway', linkURL: 'experience-milkyway.html' },
+      { linkTitle: 'Thomason Reuters', linkURL: 'experience-thomson_reuters.html' },
+      { linkTitle: 'Kendrick Lamar', linkURL: 'experience-kendrick_lamar.html' },
+      { linkTitle: 'Ford', linkURL: 'experience-ford.html' },
+      { linkTitle: 'Spotify', linkURL: 'experience-spotify.html' },
+      { linkTitle: 'Playtex', linkURL: 'experience-playtex.html' }
+    ]
+  }
 })

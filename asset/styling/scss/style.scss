@@ -168,7 +168,7 @@ ul {
 
 .index-highlighted-clients {
 
-  &:hover .index-highlighted-client {
+  &:hover li {
     color: darkgreen;
 
     &:before,
@@ -176,25 +176,23 @@ ul {
       color: black;
     }
 
+  } // end .index-highlighted-client:hover
+  
+  li {
+    display: inline;
+
+    &:after {
+      content: ", ";
+    }
+
+    &:nth-last-child(2):after {
+      content: ", and ";
+    }
+
+    &:last-child:after {
+        content: ".";
+    }
   }
-
-}
-
-.index-highlighted-client {
-  display: inline;
-
-  &:after {
-    content: ", ";
-  }
-
-  &:nth-last-child(2):after {
-    content: ", and ";
-  }
-
-  &:last-child:after {
-      content: ".";
-  }
-
 }
 
 // ~~~~~~~~~~~~~~~~~~~~
@@ -225,14 +223,17 @@ ul {
   grid-template-rows: 2fr 1fr;
 }
 
-.capabilities-list {
-  padding-top: 3.6em;
-}
-
 .capability-types-title {
   align-self: end;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
+}
+
+.is-active {
+	color: darkgreen;
+	font-weight: bold;
+	text-decoration: line-through overline underline;
+	text-transform: uppercase;
 }
 
 
@@ -244,11 +245,8 @@ ul {
 
 
 .capabilities_detail-container {
-  // display: grid;
   grid-column: 1 / 8;
   grid-row: 2 / 7;
-  // grid-template-columns: repeat(2, 1fr);
-  // grid-template-rows: 1fr 6%;
 }
 
 .capabilities_details-content {
@@ -260,7 +258,7 @@ ul {
 
 .tabs {
   align-self: center;
-  grid-column: 1 / 2;
+  grid-column: 1 ;
   justify-self: center;
   text-align: center;
 }
