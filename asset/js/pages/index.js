@@ -5,7 +5,7 @@ new Vue({
     <div class="index-container">
       <div class="index-content">
         <div class="index-header">
-          Hello there <div class="wave">👋</div>
+          Hello there <span class="wave">👋</span>
         </div>
   
         <p class="index-intro-paragraph">I’m <a href="https://www.linkedin.com/in/ssbramson" target="_blank">@ssbramson</a>, awards winning marketing executive &amp; software product owner, making companies &amp; clients happy since 2008 including,</p>

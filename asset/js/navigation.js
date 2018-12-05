@@ -54,7 +54,7 @@ new Vue({
       { linkTitle: 'About', linkURL: 'about.html' },
       { linkTitle: 'Capabilities', linkURL: 'capabilities.html' },
       { linkTitle: 'Experience', linkURL: 'experience.html' },
-      { linkTitle: 'Connect', linkURL: 'lets-collaborate.html' },
+      { linkTitle: 'Connect', linkURL: 'lets-collaborate.html' }
     ],
     navigationLogo: '</ssbramson>',
     open: false
