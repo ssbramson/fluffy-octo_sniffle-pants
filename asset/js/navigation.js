@@ -66,4 +66,32 @@ new Vue({
       this.$emit('toggle', this.open)
     }
   }
+}),
+
+new Vue({
+  el: '#footer',
+  template: `
+    <div class="global_footer-container">
+      <ul class="">
+        <li class=""><a href="">link</a></li>
+        <li class=""><a href="">link</a></li>
+        <li class=""><a href="">link</a></li>
+        <li class=""><a href="">link</a></li>
+      </ul>
+
+      <ul class="">
+        <li class=""><a href="">social</a></li>
+        <li class=""><a href="">social</a></li>
+        <li class=""><a href="">social</a></li>
+        <li class=""><a href="">social</a></li>
+        <li class=""><a href="">social</a></li>
+        <li class=""><a href="">social</a></li>
+      </ul>
+
+      <ul class="">
+        <li class=""><a href="">legal</a></li>
+        <li class=""><a href="">legal</a></li>
+      </ul>
+    </div>
+  `
 })

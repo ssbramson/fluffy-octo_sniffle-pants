@@ -3,39 +3,46 @@ new Vue({
   
   template: `
     <div class="experience_detail-container">
-      <div class="experiencer_detail-content">
-        <h1 class="">[client name]</h1>
-        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate harum at dolorum mollitia deleniti architecto, suscipit ipsa facere obcaecati nobis.</p>
-        <ul class="experience_detail-categories">
-          <li class="experience_detail-category">
-            <ul class="">
-              <li class="bold">Agency</li>
-              <li class="">stuff</li>
-            </ul>
-          </li>
-          <li class="experience_detail-category">
-            <ul class="">
-              <li class="bold">Industry</li>
-              <li class="">stuff</li>
-            </ul>
-          </li>
-          <li class="experience_detail-category">
-            <ul class="">
-              <li class="bold">Services</li>
-              <li class="">stuff</li>
-            </ul>
-          </li>
-        </ul>        
+
+      <div class="experience_detail-content_overview">
+
+        <img src="asset/media/img/spotify_logo500.png" style="width: 40%;" alt="">
+
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ratione repellendus provident, aliquam ipsa accusamus excepturi sint officia minus modi laudantium ipsum. A facilis magnam est consectetur fuga incidunt quam.</p>
+
+        <h4>Client's Challenge</h4>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ratione repellendus provident, aliquam ipsa accusamus excepturi sint officia minus modi laudantium ipsum. A facilis magnam est consectetur fuga incidunt quam.</p>
+
       </div>
 
-      <div class="scroll-icon-container">
-        <a href="#experience_details-below">
-          <div class="">
-            <i class="fal fa-level-down"></i>
-          </div>
-          scroll
-        </a>
+      <div class="experience_detail-cta_scroll">
+        <i class="fal fa-level-down"></i> the results
       </div>
+
+      <div class="experience_detail-content_list">
+        <div class="">
+          <h4 class="">Client</h4>
+          <ul class="">
+            <li class="li">{Client Name}</li>
+          </ul>
+        </div>
+        <div class="">
+          <h4 class="">Industry</h4>
+          <ul class="">
+            <li class="li">{Industry}</li>
+          </ul>
+        </div>
+        <div class="">
+          <h4 class="">Services</h4>
+          <ul class="">
+            <li class="li">Service</li>
+            <li class="li">Service</li>
+            <li class="li">Service</li>
+            <li class="li">Service</li>
+          </ul>
+        </div>
+      </div>
+
     </div>
   `,
 })

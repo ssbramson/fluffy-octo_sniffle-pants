@@ -15,7 +15,7 @@ new Vue({
     slides: [
       `
       <div class="">
-        So, you want to get to know eachother? Well...
+        So, you want to get to know eachother, huh... enjoy the elevator ride
       </div>
       `,
       `
@@ -47,10 +47,10 @@ new Vue({
       <div class="">
         <div class="">Want a longer elevator ride? Let's...</div>
         <ol class="">
-          <li class=""><a href="">Capabilities</a></li>
-          <li class=""><a href="">Experience</a></li>
-          <li class=""><a href="">Thoughts</a></li>
-          <li class=""><a href="">Connect</a></li>
+          <li class=""><a href="capabilities.html">Capabilities</a></li>
+          <li class=""><a href="experience.html">Experience</a></li>
+          <li class=""><a href="thinking-things.html">Thoughts</a></li>
+          <li class=""><a href="lets-collaborate.html">Connect</a></li>
         </ol>
       </div>
       `
