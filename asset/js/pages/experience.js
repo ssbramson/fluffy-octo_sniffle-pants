@@ -23,7 +23,7 @@ new Vue({
       { linkTitle: 'Procter & Gamble', linkURL: 'experience-procter_gamble.html' },
       { linkTitle: 'Thomason Reuters', linkURL: 'experience-thomson_reuters.html' },
       { linkTitle: 'Blackberry', linkURL: 'experience-blackberry.html' },
-      { linkTitle: 'Playtex', linkURL: 'experience-playtex.html' }
+      { linkTitle: 'Playtex', linkURL: 'experience-details.html' }
     ]
   }
 })

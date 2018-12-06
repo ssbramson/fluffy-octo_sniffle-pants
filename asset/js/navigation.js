@@ -13,32 +13,6 @@ new Vue({
 
       <div :class="['global_navigation-overlay', {'global_navigation-overlay--open': this.open}]">
 
-        <ul class="connect-contact-list">
-          <li class="connect-contact-link">
-            <a href="mailto:chitchat@ssbramson.com" target="_blank">
-              <i class="fab fa-google"></i>
-            </a>
-          </li>
-
-          <li class="connect-contact-link">
-            <a href="https://www.angel.co/ssbramson" target="_blank">
-              <i class="fab fa-angellist"></i>
-            </a>
-          </li>
-
-          <li class="connect-contact-link">
-            <a href="" target="_blank">
-              <i class="fab fa-codepen"></i>
-            </a>
-          </li>
-
-          <li class="connect-contact-link">
-            <a href="https://www.linkedin.com/in/ssbramson" target="_blank">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        </ul>
-
         <ul class="global_navigation-links">
           <li v-for="globalNavigationLink in globalNavigationLinks">
             <a :href="globalNavigationLink.linkURL">{{ globalNavigationLink.linkTitle }}</a>
@@ -66,32 +40,4 @@ new Vue({
       this.$emit('toggle', this.open)
     }
   }
-}),
-
-new Vue({
-  el: '#footer',
-  template: `
-    <div class="global_footer-container">
-      <ul class="">
-        <li class=""><a href="">link</a></li>
-        <li class=""><a href="">link</a></li>
-        <li class=""><a href="">link</a></li>
-        <li class=""><a href="">link</a></li>
-      </ul>
-
-      <ul class="">
-        <li class=""><a href="">social</a></li>
-        <li class=""><a href="">social</a></li>
-        <li class=""><a href="">social</a></li>
-        <li class=""><a href="">social</a></li>
-        <li class=""><a href="">social</a></li>
-        <li class=""><a href="">social</a></li>
-      </ul>
-
-      <ul class="">
-        <li class=""><a href="">legal</a></li>
-        <li class=""><a href="">legal</a></li>
-      </ul>
-    </div>
-  `
 })

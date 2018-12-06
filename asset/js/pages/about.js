@@ -15,44 +15,69 @@ new Vue({
     slides: [
       `
       <div class="">
-        So, you want to get to know eachother, huh... enjoy the elevator ride
+        <a href="#">about.txt</a> or elevator pitch  
       </div>
       `,
       `
       <div class="">
-        I grew up as an only child, so I made technoloy my family 🖥 💻 💾 📟 📠
+        An only child from the 80s that "pretended" tech from the 90s were my sibilings
+        <div class="" style="margin-top: 12px;">💾 📟 📹 📠 📡  </div>
       </div>
       `,
       `
       <div class="">
-        This created my passion for [n], [n], [n], [n], and [n].
+        I developed a desire and passion for [n], [n], and [n].
       </div>
       `,
       `
       <div class="">
-        Which gave me the opportunity to have clients just as [c], [c], [c], [c], and [c].
+        That passion envolved into founding a couple of marketing agencies
       </div>
       `,
       `
       <div class="">
-        That lead to being honored with such awards like [a], [a], [a], and [a].
+        Who's clientele included, Milkyway, Procter & Gamble, Kendrick Lamar, Blackberry, Playtex, Google, and Thomson Reuters
       </div>
       `,
       `
       <div class="">
-        Currently, I'm spilting my time between NYC and LA collaborating with [i], [i], and [i].
+        Which was recongized and awarded by [a], [a], and [a].
       </div>
       `,
       `
       <div class="">
-        <div class="">Want a longer elevator ride? Let's...</div>
-        <ol class="">
-          <li class=""><a href="capabilities.html">Capabilities</a></li>
-          <li class=""><a href="experience.html">Experience</a></li>
-          <li class=""><a href="thinking-things.html">Thoughts</a></li>
-          <li class=""><a href="lets-collaborate.html">Connect</a></li>
-        </ol>
+        Now I spilt  my time between NYC and LA
       </div>
+      `,
+      `
+      <div class="">
+          I'm currently <a href="#"><b>here</b></a> IRL
+        </div>
+      `,
+      `
+      <div class="">
+        Looks like this is your floor. Curious in discovering more? 👍 or 👎
+      </div>
+      `,
+      `
+      <div class="">
+        <ul class="">
+          <li class=""><a href="#">My Availability</a></li>
+          <li class=""><a href="#">Awards and Recongination</a></li>
+          <li class=""><a href="capabilities.html">My Capabilities</a></li>
+          <li class=""><a href="experience.html">My Experience</a></li>
+          <li class=""><a href="thinking-things.html">My Thoughts</a></li>
+          <li class=""><a href="lets-collaborate.html">My Contact</a></li>
+        </ul>
+      </div>
+      `,
+      `
+      <div class="">
+        Availablity to collaborate starting mid Q1 2019
+      </div>
+      `,
+      `
+      
       `
     ],
   },

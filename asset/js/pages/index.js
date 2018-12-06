@@ -5,32 +5,39 @@ new Vue({
     <div class="index-container">
       <div class="index-content">
         <div class="index-header">
-          Hello there <span class="wave">👋</span>
+        🐨<sub>.6</sub> + 🤖<sub>.25</sub> + 🤓<sub>.3</sub> + 🤦‍<sub> .05</sub>
         </div>
   
-        <p class="index-intro-paragraph">I’m <a href="https://www.linkedin.com/in/ssbramson" target="_blank">@ssbramson</a>, awards winning marketing executive &amp; software product owner, making companies &amp; clients happy since 2008 including,</p>
+        <p class="index-intro-paragraph">
+          Award winning marketing executive  specialized in consumer technology applications and packaged goods. Past clientele include, but not limited to;
+          <ul class="index-highlighted-clients">
+            <li v-for="indexClientLink in indexClientLinks">
+              <a :href="indexClientLink.linkURL">{{ indexClientLink.linkTitle }}</a>
+            </li>
+          </ul>
+        </p>
   
-        <ul class="index-highlighted-clients">
-          <li v-for="indexClientLink in indexClientLinks">
-            <a :href="indexClientLink.linkURL">{{ indexClientLink.linkTitle }}</a>
-          </li>
-          
-        </ul>
+        
       </div>
     </div>
   `,
 
   data: {
     indexClientLinks: [
+      
+      { linkTitle: 'Milkyway', linkURL: 'experience-milkyway.html' },
+      { linkTitle: 'Blackberry', linkURL: 'experience-blackberry.html' },
       { linkTitle: 'Procter & Gamble', linkURL: 'experience-procter_gamble.html' },
       { linkTitle: 'Google', linkURL: 'experience-google.html' },
-      { linkTitle: 'Blackberry', linkURL: 'experience-blackberry.html' },
-      { linkTitle: 'Milkyway', linkURL: 'experience-milkyway.html' },
-      { linkTitle: 'Thomason Reuters', linkURL: 'experience-thomson_reuters.html' },
+      
+      
+      
       { linkTitle: 'Kendrick Lamar', linkURL: 'experience-kendrick_lamar.html' },
-      { linkTitle: 'Ford', linkURL: 'experience-ford.html' },
-      { linkTitle: 'Spotify', linkURL: 'experience-spotify.html' },
-      { linkTitle: 'Playtex', linkURL: 'experience-playtex.html' }
+      { linkTitle: 'Thomason Reuters', linkURL: 'experience-thomson_reuters.html' },
+      
+      { linkTitle: 'Ford Automotive', linkURL: 'experience-ford.html' },
+      { linkTitle: 'Playtex Tampons', linkURL: 'experience-playtex.html' },
+      { linkTitle: 'Spotify Music', linkURL: 'experience-spotify.html' }
     ]
   }
 })

@@ -8,20 +8,24 @@ new Vue({
         <ul class="capabilities">
           <li class="capability">[tool]</li>
           <li class="capability">[skill]</li>
-          <li class="capability">[tool]</li>
           <li class="capability">[skill]</li>
+          <li class="capability">[tool]</li>
+          <li class="capability">[certification]</li>
+          <li class="capability">[skill]</li>
+          
           <li class="capability">[tool]</li>
           <li class="capability">[certification]</li>
           <li class="capability">[skill]</li>
           <li class="capability">[tool]</li>
           <li class="capability">[skill]</li>
-          <li class="capability">[certification]</li>
+          
           <li class="capability">[tool]</li>
           <li class="capability">[certification]</li>
           <li class="capability">[tool]</li>
+          <li class="capability">[certification]</li>
           <li class="capability">[skill]</li>
           <li class="capability">[tool]</li>
-          <li class="capability">[certification]</li>
+          
           
         </ul>
       </div>
