@@ -5,7 +5,7 @@ new Vue({
     <div class="index-container">
       <div class="index-content">
         <div class="index-header">
-        🐨<sub>.6</sub> + 🤖<sub>.25</sub> + 🤓<sub>.3</sub> + 🤦‍<sub> .05</sub>
+        🐨<sub>.60</sub> + 🤖<sub>.10</sub> + 🤓<sub>.20</sub> + 🤦‍<sub> .03</sub> + 🤪‍<sub>.07</sub>
         </div>
   
         <p class="index-intro-paragraph">

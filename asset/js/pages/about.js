@@ -46,7 +46,7 @@ new Vue({
       `,
       `
       <div class="">
-        Now I spilt  my time between NYC and LA
+        Currently time between NYC and LA
       </div>
       `,
       `
