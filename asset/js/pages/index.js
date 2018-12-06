@@ -24,9 +24,9 @@ new Vue({
 
   data: {
     indexClientLinks: [
-      
-      { linkTitle: 'Milkyway', linkURL: 'experience-milkyway.html' },
       { linkTitle: 'Blackberry', linkURL: 'experience-blackberry.html' },
+      { linkTitle: 'Milky Way', linkURL: 'experience-milkyway.html' },
+      
       { linkTitle: 'Procter & Gamble', linkURL: 'experience-procter_gamble.html' },
       { linkTitle: 'Google', linkURL: 'experience-google.html' },
       

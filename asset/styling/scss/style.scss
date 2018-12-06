@@ -267,6 +267,7 @@ sub {
 
 .index-header {
   font-size: 2.5rem;
+  line-height: 3.5rem;
 }
 
 .index-intro-paragraph {
@@ -603,4 +604,19 @@ sub {
   grid-row: 1 / 2;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
+}
+
+pre {
+  // font-family: 'Iceland', monospace;
+  font-family: 'VT323', monospace;
+  font-family: 'Space Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.0rem;
+  font-weight: $font_weight-light;
+  letter-spacing: 0.1rem;
+  line-height: 2.0rem;
+
+  i {
+    font-size: 1.0rem;
+  }
 }
