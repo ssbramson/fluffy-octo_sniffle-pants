@@ -307,29 +307,37 @@ sub {
 }
 
 .index-content {
-  align-self: end;
+  
   letter-spacing: 0.2rem;
 
-  @media (min-with: $primary-breakpoint) {}
+  @media (min-with: $primary-breakpoint) {
+    align-self: end;
+  }
 }
 
 .index-header {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
+  font-size: 2.0rem;
+  line-height: 3.0rem;
 
-  @media (min-with: $primary-breakpoint) {}
+  @media (min-with: $primary-breakpoint) {
+    line-height: 3.5rem;
+  }
 }
 
 .index-intro-paragraph {
   font-family: $font_family-primary;
-  font-size: 2.0rem;
+  font-size: 1.2rem;
   font-weight: $font_weight-light;
-  letter-spacing: 0.06rem;
-  line-height: 4.0rem;
+  
+  
   margin-top: 18px;
   text-transform: lowercase;
 
-  @media (min-with: $primary-breakpoint) {}
+  @media (min-with: $primary-breakpoint) {
+    font-size: 2.0rem;
+    letter-spacing: 0.06rem;
+    line-height: 4.0rem;
+  }
 }
 
 .index-highlighted-clients {
@@ -453,26 +461,33 @@ sub {
 
 .capabilities-list {
   font-family: $font_family-accent;
-  font-size: 3.0rem;
+  font-size: 1.5rem;
   font-weight: $font_weight-semi_bold;
   grid-row: 2 / 3;
-  letter-spacing: 0.12rem;
-  line-height: 5.0rem;
+  letter-spacing: 0.06rem;
+  line-height: 2.5rem;
 
-  @media (min-with: $primary-breakpoint) {}
+  @media (min-with: $primary-breakpoint) {
+    font-size: 3.0rem;
+    letter-spacing: 0.12rem;
+    line-height: 5.0rem;
+  }
 }
 
 .capability-types-title {
   align-self: end;
   font-family: $font_family-primary;
-  font-size: 2.0rem;
+  font-size: 1.2rem;
   font-weight: $font_weight-light;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
-  letter-spacing: 0.25rem;
+  // letter-spacing: 0.1rem;
   // text-transform: uppercase;
 
-  @media (min-with: $primary-breakpoint) {}
+  @media (min-with: $primary-breakpoint) {
+    font-size: 2.0rem;
+    letter-spacing: 0.25rem;
+  }
 }
 
 .is-active {
@@ -549,13 +564,15 @@ sub {
 
 .experience-client-links {
   font-family: $font_family-primary;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: $font_weight-light;
   letter-spacing: 0.6rem;
   text-align: center;
   text-transform: uppercase;
 
-  @media (min-with: $primary-breakpoint) {}
+  @media (min-with: $primary-breakpoint) {
+    font-size: 2.5rem;
+  }
 
   li {
     margin-top: 30px;
