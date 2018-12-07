@@ -6,10 +6,11 @@ new Vue({
       <div class="index-content">
         <div class="index-header">
         🐨<sub>.60</sub> + 🤖<sub>.10</sub> + 🤓<sub>.20</sub> + 🤦‍<sub> .03</sub> + 🤪‍<sub>.07</sub>
+        <!-- 🐨<sub>60%</sub> + 🤖<sub>10%</sub> + 🤓<sub>20%</sub> + 🤦‍<sub> 03%</sub> + 🤪‍<sub>07%</sub> -->
         </div>
   
         <p class="index-intro-paragraph">
-          Award winning marketing executive  specialized in consumer technology applications and packaged goods. Past clientele include, but not limited to;
+          Award winning marketing executive  specialized in consumer technology applications and packaged goods. Clientele including, but not limited to;
           <ul class="index-highlighted-clients">
             <li v-for="indexClientLink in indexClientLinks">
               <a :href="indexClientLink.linkURL">{{ indexClientLink.linkTitle }}</a>
@@ -25,17 +26,15 @@ new Vue({
   data: {
     indexClientLinks: [
       { linkTitle: 'Blackberry', linkURL: 'experience-blackberry.html' },
-      { linkTitle: 'Milky Way', linkURL: 'experience-milkyway.html' },
-      
-      { linkTitle: 'Procter & Gamble', linkURL: 'experience-procter_gamble.html' },
       { linkTitle: 'Google', linkURL: 'experience-google.html' },
-      
-      
-      
+      { linkTitle: 'Milky Way', linkURL: 'experience-milkyway.html' },
       { linkTitle: 'Kendrick Lamar', linkURL: 'experience-kendrick_lamar.html' },
-      { linkTitle: 'Thomason Reuters', linkURL: 'experience-thomson_reuters.html' },
+      
+      { linkTitle: 'Procter & Gamble', linkURL: 
+      'experience-procter_gamble.html' },
       
       { linkTitle: 'Ford Automotive', linkURL: 'experience-ford.html' },
+      { linkTitle: 'Thomson Reuters', linkURL: 'experience-thomson_reuters.html' },
       { linkTitle: 'Playtex Tampons', linkURL: 'experience-playtex.html' },
       { linkTitle: 'Spotify Music', linkURL: 'experience-spotify.html' }
     ]
