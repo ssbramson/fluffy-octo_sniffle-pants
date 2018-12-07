@@ -122,9 +122,6 @@ sub {
   justify-self: end;
   text-align: right;
   text-transform: uppercase; }
-  @media (min-with: 724px) {
-    .global_navigation-links {
-      font-size: 5.0rem; } }
   .global_navigation-links li {
     margin-top: 2.0rem; }
 
@@ -165,29 +162,21 @@ sub {
   grid-template-rows: 1fr; }
 
 .index-content {
+  align-self: end;
   letter-spacing: 0.2rem; }
-  @media (min-with: 724px) {
-    .index-content {
-      align-self: end; } }
 
 .index-header {
   font-size: 2.0rem;
-  line-height: 3.0rem; }
-  @media (min-with: 724px) {
-    .index-header {
-      line-height: 3.5rem; } }
+  line-height: 3.5rem; }
 
 .index-intro-paragraph {
   font-family: "Josefin Sans", monospace;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   font-weight: 300;
+  letter-spacing: 0.06rem;
+  line-height: 4.0rem;
   margin-top: 18px;
   text-transform: lowercase; }
-  @media (min-with: 724px) {
-    .index-intro-paragraph {
-      font-size: 2.0rem;
-      letter-spacing: 0.06rem;
-      line-height: 4.0rem; } }
 
 .index-highlighted-clients {
   display: inline; }
@@ -256,29 +245,21 @@ sub {
 
 .capabilities-list {
   font-family: "Josefin Slab", serif;
-  font-size: 1.5rem;
+  font-size: 3.0rem;
   font-weight: 600;
   grid-row: 2 / 3;
-  letter-spacing: 0.06rem;
-  line-height: 2.5rem; }
-  @media (min-with: 724px) {
-    .capabilities-list {
-      font-size: 3.0rem;
-      letter-spacing: 0.12rem;
-      line-height: 5.0rem; } }
+  letter-spacing: 0.12rem;
+  line-height: 5.0rem; }
 
 .capability-types-title {
   align-self: end;
   font-family: "Josefin Sans", monospace;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
   font-weight: 300;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
-  letter-spacing: 0.1rem; }
-  @media (min-with: 724px) {
-    .capability-types-title {
-      font-size: 2.0rem;
-      letter-spacing: 0.25rem; } }
+  letter-spacing: 0.1rem;
+  text-transform: uppercase; }
 
 .is-active {
   color: #bdc2c7;
@@ -322,14 +303,11 @@ sub {
 
 .experience-client-links {
   font-family: "Josefin Sans", monospace;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 300;
   letter-spacing: 0.6rem;
   text-align: center;
   text-transform: uppercase; }
-  @media (min-with: 724px) {
-    .experience-client-links {
-      font-size: 2.5rem; } }
   .experience-client-links li {
     margin-top: 30px; }
   .experience-client-links li:hover {

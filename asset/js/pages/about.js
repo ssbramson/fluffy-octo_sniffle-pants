@@ -75,9 +75,6 @@ new Vue({
       <div class="">
         Availablity to collaborate starting mid Q1 2019
       </div>
-      `,
-      `
-      
       `
     ],
   },
