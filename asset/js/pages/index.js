@@ -34,9 +34,10 @@ new Vue({
       'experience-procter_gamble.html' },
       
       { linkTitle: 'Ford Automotive', linkURL: 'experience-ford.html' },
+      { linkTitle: 'Spotify Music', linkURL: 'experience-spotify.html' },
       { linkTitle: 'Thomson Reuters', linkURL: 'experience-thomson_reuters.html' },
-      { linkTitle: 'Playtex Tampons', linkURL: 'experience-playtex.html' },
-      { linkTitle: 'Spotify Music', linkURL: 'experience-spotify.html' }
+      { linkTitle: 'Playtex Tampons', linkURL: 'experience-playtex.html' }
+      
     ]
   }
 })
