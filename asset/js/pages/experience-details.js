@@ -6,7 +6,7 @@ new Vue({
 
       <div class="experience_detail-content_overview">
 
-        <img src="asset/media/img/spotify_logo500.png" style="width: 30%;" alt="">
+        <img src="asset/media/img/spotify_logo500.png" style="width: 40%;" alt="">
 
         <p class="experience_detail-organization_overview">Lorem ipsum dolor sit consectetur adipisicing elit. Ratione repellendus provident, aliquam ipsa accusamus excepturi sint officia minus modi laudantium ipsum. A facilis magnam est consectetur fuga incidunt.</p>
 

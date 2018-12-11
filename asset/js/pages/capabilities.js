@@ -35,9 +35,9 @@ new Vue({
             <li class="capability-type">
              <a href="capabilities-detail.html">I'm</a>
             </li>
-            <li class="capability-type"><a href="">certified</a></li>
-            <li class="capability-type"><a href="">use</a></li>
-            <li class="capability-type"><a href="">know</a></li>
+            <li class="capability-type"><a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#skills">certified</a></li>
+            <li class="capability-type"><a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#certifications">use</a></li>
+            <li class="capability-type"><a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#platforms">know</a></li>
         </ul>
       </div>
       

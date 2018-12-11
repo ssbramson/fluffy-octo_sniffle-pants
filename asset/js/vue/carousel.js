@@ -1,4 +1,3 @@
-
 /*!
  * vue-carousel v0.1.1
  * https://fengyuanchen.github.io/vue-carousel

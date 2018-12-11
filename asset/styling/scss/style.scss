@@ -2,7 +2,7 @@
 
 $black: rgb(35, 34, 35);
 $white: rgb(242, 243, 244);
-$purple: rgb(26, 127, 77);
+$purple: rgb(30, 10, 50);
 
 // $black: rgba(#232223, 1.0);
 // $white: rgba(#f2f3f4, 1.0);
@@ -76,7 +76,8 @@ a {
 }
 
 body {
-  color: rgba($black, 1.0);
+  background-color: rgba($purple, 0.8);
+  color: rgba($white, 1.0);
 }
 
 a,
@@ -173,6 +174,7 @@ sub {
   @media (max-width: $px-breakpoint-primary) {}
   @media (min-width: $px-breakpoint-primary) {}
   
+  color: rgba($white, 0.8);
   grid-column: 3 / 4;
   grid-row: 1 / 2;
   justify-self: end;
@@ -297,7 +299,7 @@ sub {
   @media (max-width: $px-breakpoint-primary) {}
   @media (min-width: $px-breakpoint-primary) {}
   
-  color: $purple;
+  color: rgba($white, 0.8);
   font-family: $font_family-primary;
   font-size: 1.0rem;
   font-weight: $font_weight-regular;
@@ -346,8 +348,6 @@ sub {
     align-self: end;
   }
   
-  
-  
 }
 
 .index-header {
@@ -374,7 +374,7 @@ sub {
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
     line-height: 4.0rem;
-    margin-top: 30px;
+    margin-top: 18px;
     text-transform: uppercase;
   }
   

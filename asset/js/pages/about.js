@@ -15,11 +15,6 @@ new Vue({
     slides: [
       `
       <div class="">
-        <a href="#">about.txt</a> or elevator pitch  
-      </div>
-      `,
-      `
-      <div class="">
         An only child from the 80s that "pretended" tech from the 90s were my sibilings
         <div class="" style="margin-top: 12px;">💾 📟 📹 📠 📡  </div>
       </div>
