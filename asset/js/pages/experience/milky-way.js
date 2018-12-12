@@ -6,9 +6,11 @@ new Vue({
 
       <div class="experience_detail-content_overview">
 
-        <img src="asset/media/img/spotify_logo500.png" class="experience_detail-organization_logo" alt="">
+        <img src="http://www.milkywaybar.com/Content/images/logo.png" class="experience_detail-organization_logo" alt="">
 
-        <p class="experience_detail-organization_overview">Lorem ipsum dolor sit consectetur adipisicing elit. Ratione repellendus provident, aliquam ipsa accusamus excepturi sint officia minus modi laudantium ipsum. A facilis magnam est consectetur fuga incidunt.</p>
+        <p class="experience_detail-organization_overview">
+          The Milky Way bar is a chocolate-covered confectionary bar manufactured and distributed by the Mars confectionery company.
+        </p>
 
         <h4 class="experience_detail-organization_title">Client's Request</h4>
 
@@ -25,20 +27,21 @@ new Vue({
         
           <h4 class="">Industry</h4>
           <ul class="">
-            <li class="">Consumer Packaged Good - Candy</li>
+            <li class="">Consumer Packaged Good</li>
+            <!-- <li class="">Consumer Packaged Good - Candy</li> -->
           </ul>
         
           <h4 class="">Services</h4>
           <ul class="experience_detail-services">
-            <li class="experience_detail-service">User Acquisition</li>
-            <li class="experience_detail-service">Evangelism Conversation</li>
-            <li class="experience_detail-service">Brand Awareness</li>
-            <li class="experience_detail-service">Campus Takeovers</li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
           </ul>
 
           <h4 class="">Agency</h4>
           <ul class="">
-            <li class="">influencers@</li>
+            <li class="">Buzz University</li>
           </ul>
           
         

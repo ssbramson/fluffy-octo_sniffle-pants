@@ -6,9 +6,11 @@ new Vue({
 
       <div class="experience_detail-content_overview">
 
-        <img src="asset/media/img/spotify_logo500.png" class="experience_detail-organization_logo" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Thomson_Reuters_logo.svg" class="experience_detail-organization_logo" alt="">
 
-        <p class="experience_detail-organization_overview">Lorem ipsum dolor sit consectetur adipisicing elit. Ratione repellendus provident, aliquam ipsa accusamus excepturi sint officia minus modi laudantium ipsum. A facilis magnam est consectetur fuga incidunt.</p>
+        <p class="experience_detail-organization_overview">
+          Thomson Reuters is one of the world’s most trusted provider of answers, helping professionals make confident decisions and run better businesses. We help them reinvent the way they work. Our team of experts brings together information, innovation and authoritative insight to unravel complex situations, and our worldwide network of journalists and editors keep customers up to speed on global developments that are relevant to them.
+        </p>
 
         <h4 class="experience_detail-organization_title">Client's Request</h4>
 
@@ -20,20 +22,20 @@ new Vue({
 
           <h4 class="">Client</h4>
           <ul class="">
-            <li class="">Spotify Ltd.</li>
+            <li class="">Thomson Reuters</li>
           </ul>
         
           <h4 class="">Industry</h4>
           <ul class="">
-            <li class="">Media Streaming App</li>
+            <li class="">Information & Digital Media</li>
           </ul>
         
           <h4 class="">Services</h4>
           <ul class="experience_detail-services">
-            <li class="experience_detail-service">User Acquisition</li>
-            <li class="experience_detail-service">Evangelism Conversation</li>
-            <li class="experience_detail-service">Brand Awareness</li>
-            <li class="experience_detail-service">Campus Takeovers</li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
           </ul>
 
           <h4 class="">Agency</h4>

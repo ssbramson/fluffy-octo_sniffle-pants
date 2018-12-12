@@ -6,9 +6,11 @@ new Vue({
 
       <div class="experience_detail-content_overview">
 
-        <img src="asset/media/img/spotify_logo500.png" class="experience_detail-organization_logo" alt="">
+        <img src="http://cache.umusic.com/_sites/kendricklamar.com/images/logo-white2.png" class="experience_detail-organization_logo" alt="">
 
-        <p class="experience_detail-organization_overview">Lorem ipsum dolor sit consectetur adipisicing elit. Ratione repellendus provident, aliquam ipsa accusamus excepturi sint officia minus modi laudantium ipsum. A facilis magnam est consectetur fuga incidunt.</p>
+        <p class="experience_detail-organization_overview">
+          Raised in Compton, California, Lamar embarked on his musical career as a teenager under the stage name K-Dot, releasing a mixtape that garnered local attention and led to his signing with indie record label Top Dawg Entertainment (TDE). He began to gain recognition in 2010
+        </p>
 
         <h4 class="experience_detail-organization_title">Client's Request</h4>
 
@@ -20,25 +22,25 @@ new Vue({
 
           <h4 class="">Client</h4>
           <ul class="">
-            <li class="">Spotify Ltd.</li>
+            <li class="">Kendrick Lamar</li>
           </ul>
         
           <h4 class="">Industry</h4>
           <ul class="">
-            <li class="">Media Streaming App</li>
+            <li class="">Multi-Grammy Winning Musician</li>
           </ul>
         
           <h4 class="">Services</h4>
           <ul class="experience_detail-services">
-            <li class="experience_detail-service">User Acquisition</li>
-            <li class="experience_detail-service">Evangelism Conversation</li>
-            <li class="experience_detail-service">Brand Awareness</li>
-            <li class="experience_detail-service">Campus Takeovers</li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
           </ul>
 
           <h4 class="">Agency</h4>
           <ul class="">
-            <li class="">influencers@</li>
+            <li class="">influencers@ + ChatterMob</li>
           </ul>
           
         

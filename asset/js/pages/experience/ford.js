@@ -6,9 +6,11 @@ new Vue({
 
       <div class="experience_detail-content_overview">
 
-        <img src="asset/media/img/spotify_logo500.png" class="experience_detail-organization_logo" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Ford_Motor_Company_Logo.svg" class="experience_detail-organization_logo" alt="">
 
-        <p class="experience_detail-organization_overview">Lorem ipsum dolor sit consectetur adipisicing elit. Ratione repellendus provident, aliquam ipsa accusamus excepturi sint officia minus modi laudantium ipsum. A facilis magnam est consectetur fuga incidunt.</p>
+        <p class="experience_detail-organization_overview">
+        At Ford, the mission is go further to make their cars better, their employees happier and the planet a better place to travel. Ford is focused on people working together as a lean, global enterprise will make people’s lives better through automotive and mobility leadership.
+        </p>
 
         <h4 class="experience_detail-organization_title">Client's Request</h4>
 
@@ -20,20 +22,20 @@ new Vue({
 
           <h4 class="">Client</h4>
           <ul class="">
-            <li class="">Spotify Ltd.</li>
+            <li class="">Ford Focus</li>
           </ul>
         
           <h4 class="">Industry</h4>
           <ul class="">
-            <li class="">Media Streaming App</li>
+            <li class="">Automotive Manufacturer</li>
           </ul>
         
           <h4 class="">Services</h4>
           <ul class="experience_detail-services">
-            <li class="experience_detail-service">User Acquisition</li>
-            <li class="experience_detail-service">Evangelism Conversation</li>
-            <li class="experience_detail-service">Brand Awareness</li>
-            <li class="experience_detail-service">Campus Takeovers</li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
+            <li class="experience_detail-service"> Service [s] </li>
           </ul>
 
           <h4 class="">Agency</h4>
