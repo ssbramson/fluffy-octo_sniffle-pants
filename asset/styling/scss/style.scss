@@ -47,7 +47,8 @@ $font_weight-regular: 400;
 $font_weight-semi_bold: 600;
 $font_weight-bold: 700;
 
-$px-breakpoint-primary: 760px;
+$px-breakpoint-primary_height: 667px;
+$px-breakpoint-primary_width: 760px;
 
 // ~~~~~~~~~~~~~~~~~~~~
 // ~~~~~~~~~~~~~~~~~~~~
@@ -107,12 +108,12 @@ sub {
       // ~~~~~~~~~~~~~~~~~~~~
 
 .container-test {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-template-columns: 6% repeat(3, 1fr) 6%;
     grid-template-rows: 90px repeat(3, 1fr) 6%;
     height: 100vh;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-template-columns: 6% repeat(5, 1fr) 6%;
     grid-template-rows: 124px repeat(5, 1fr) 6%;
     height: 100vh;
@@ -122,11 +123,11 @@ sub {
 }
 
 .container-footer__false {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-template-columns: 6% repeat(3, 1fr) 6%;
     grid-template-rows: 90px repeat(3, 1fr);
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-template-columns: 6% repeat(5, 1fr) 6%;
     grid-template-rows: 124px repeat(5, 1fr);
   }
@@ -136,8 +137,8 @@ sub {
 }
 
 // .container-guttersFalse {
-//   @media (max-width: $px-breakpoint-primary) {}
-//   @media (min-width: $px-breakpoint-primary) {}
+//   @media (max-width: $px-breakpoint-primary_width) {}
+//   @media (min-width: $px-breakpoint-primary_width) {}
 
 //   display: grid;
 //   grid-template-columns: 6% repeat(5, 1fr) 6%;
@@ -149,8 +150,8 @@ sub {
 // ~~~~~~~~~~~~~~~~~~~~ 
 
 .global_navigation-container {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   align-items: center;
   display: grid;
@@ -162,15 +163,15 @@ sub {
 
 .global_navigation-logo-container,
 .global_navigation-icon-container {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   font-size: 1.8rem;
 }
 
 .global_navigation-logo-container {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   font-family: $font_family-primary;
   font-weight: $font_weight-light;
@@ -180,8 +181,8 @@ sub {
 }
 
 .global_navigation-icon-container {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   color: rgba($white, 0.8);
   grid-column: 3 / 4;
@@ -191,8 +192,8 @@ sub {
 }
 
 .global_navigation-icon-container--open i {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   color: $white;
   transform: rotateY(180deg);
@@ -200,8 +201,8 @@ sub {
 }
 
 .global_navigation-overlay {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   background-color: $black;
   color: $white;
@@ -225,15 +226,15 @@ sub {
 }
 
 .global_navigation-overlay--open {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   width: 100%;
 }
 
 .connect-contact-list {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   align-self: end;
   font-size: 2.0rem;
@@ -241,8 +242,8 @@ sub {
   grid-row: 3;
   
   .connect-contact-link {
-    @media (max-width: $px-breakpoint-primary) {}
-    @media (min-width: $px-breakpoint-primary) {}
+    @media (max-width: $px-breakpoint-primary_width) {}
+    @media (min-width: $px-breakpoint-primary_width) {}
   
     display: inline-flex;
     padding-right: 1.2rem;
@@ -251,12 +252,12 @@ sub {
 }
 
 .global_navigation-links {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     font-size: 2.5rem;
     letter-spacing: 0.2rem;
     line-height: 2.0rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 5.0rem;
     letter-spacing: 1.2rem;
     line-height: 4.5rem;
@@ -274,10 +275,10 @@ sub {
   text-transform: uppercase;
 
   li {
-    @media (max-width: $px-breakpoint-primary) {
+    @media (max-width: $px-breakpoint-primary_width) {
       margin-top: 2.0rem;
     }
-    @media (min-width: $px-breakpoint-primary) {
+    @media (min-width: $px-breakpoint-primary_width) {
       margin-top: 3.0rem;
     }
 
@@ -285,16 +286,16 @@ sub {
 }
 
 .global_footer-container {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   display: grid;
   grid-column: 1 / 6;
   grid-row: 7 / 8;
 
   li {
-    @media (max-width: $px-breakpoint-primary) {}
-    @media (min-width: $px-breakpoint-primary) {}
+    @media (max-width: $px-breakpoint-primary_width) {}
+    @media (min-width: $px-breakpoint-primary_width) {}
   
     display: inline;
   }
@@ -305,10 +306,10 @@ sub {
 
 .vertical_cta-left,
 .vertical_cta-right {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     letter-spacing: 0.1rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 1.0rem;
     letter-spacing: 0.2rem;  
   }
@@ -321,11 +322,11 @@ sub {
 }
 
 .vertical_cta-left {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 4;
     grid-row: 6 / 7;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 3;
     grid-row: 7 / 8;
   }
@@ -335,11 +336,11 @@ sub {
 }
 
 .vertical_cta-right {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 3 / 5;
     grid-row: 5 / 6;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-column: 5 / 7;
     grid-row: 7 / 8;
   }
@@ -352,13 +353,13 @@ sub {
 // ~~~~~~~~~~~~~~~~~~~~ 
 
 .index-container {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 5;
     grid-row: 2 / 5;
     grid-template-columns: 8fr 1fr;
     grid-template-rows: 6% 1fr;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 7;
     grid-row: 2 / 7;
     grid-template-columns: 3fr 1fr;
@@ -370,19 +371,19 @@ sub {
 }
 
 .index-content {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
 
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
 
 .index-header {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     font-size: 2.0rem;
     line-height: 3.25rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 3.0rem;
     line-height: 3.5rem;
   }
@@ -391,13 +392,13 @@ sub {
 }
 
 .index-intro-paragraph {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     font-size: 1.25rem;
     letter-spacing: 0.06rem;
     line-height: 2.0rem;
     margin-top: 30px;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
     line-height: 4.0rem;
@@ -411,14 +412,14 @@ sub {
 }
 
 .index-highlighted-clients {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   display: inline;
 
   li {
-    @media (max-width: $px-breakpoint-primary) {}
-    @media (min-width: $px-breakpoint-primary) {}
+    @media (max-width: $px-breakpoint-primary_width) {}
+    @media (min-width: $px-breakpoint-primary_width) {}
   
     display: inline;
     
@@ -444,11 +445,11 @@ sub {
 // ~~~~~~~~~~~~~~~~~~~~
 
 .about-container {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     font-size: 1.5rem;
     line-height: 3.0rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 4.0rem;
     font-weight: $font_weight-thin;
     line-height: 6.5rem;
@@ -464,16 +465,16 @@ sub {
 }
 
 .about-content {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   grid-column: 1 / 7;
   grid-row: 1 / 2;
 }
 
 .carousel {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   display: grid;
   grid-template-columns: 6% 1fr 3fr 1fr 6%;
@@ -481,16 +482,16 @@ sub {
 }
 
 .carousel__list {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   grid-column: 3 / 4;
   grid-row: 1 / 2;
 }
 
 .carousel .carousel__item > span {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   align-items: center;
   display: grid;
@@ -500,8 +501,8 @@ sub {
 }
 
 .carousel__indicator::before {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   background-color: #000;
 }
@@ -510,8 +511,8 @@ sub {
 
 .capability,
 .capability-type {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   display: inline-flex;
 
@@ -530,13 +531,13 @@ sub {
 }
 
 .capabilities-container {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 5;
     grid-row: 2 / 5;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 6% 2fr 1fr;  
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 7;
     grid-row: 2 / 7;
     grid-template-columns: 3fr 1fr;
@@ -547,11 +548,11 @@ sub {
 }
 
 .capabilities-list {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     font-size: 1.5rem;
     line-height: 2.5rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 3.0rem;    
     letter-spacing: 0.12rem;
     line-height: 5.0rem;
@@ -563,11 +564,11 @@ sub {
 }
 
 .capability-types-title {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     font-size: 1.5rem;
     line-height: 2.25rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 2.0rem;
   }
   
@@ -582,8 +583,8 @@ sub {
 }
 
 .is-active {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
 	color: $white-plus25;
   font-weight: bold;
@@ -601,8 +602,8 @@ sub {
 
 
 .capabilities_detail-container {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   grid-column: 1 / 8;
   grid-row: 2 / 7;
@@ -610,8 +611,8 @@ sub {
 }
 
 .capabilities_details-content {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -620,8 +621,8 @@ sub {
 }
 
 .tabs {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   align-self: center;
   font-family: $font_family-accent;
@@ -634,8 +635,8 @@ sub {
 
 .tabs:nth-child(2) 
 .tab-details {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   grid-column: 2;
 }
@@ -643,13 +644,13 @@ sub {
 // ~~~~~~~~~~~~~~~~~~~~
 
 .experience-container {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 5;
-    grid-row: 1 / 5;
+    grid-row: 2 / 5;
     grid-template-columns: .5fr 3fr .5fr;
     grid-template-rows: 1fr;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 7;
     grid-row: 1 / 7;
     grid-template-columns: 1fr;
@@ -660,23 +661,25 @@ sub {
 }
 
 .experience-content {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 3;
   }
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   align-self: center;
   justify-self: center;
 }
 
 .experience-client-links {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     font-size: 1.5rem;
     letter-spacing: 0.6rem;
+    line-height: 2.5rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 2.5rem;
     letter-spacing: 0.8rem;
+    
   }
   
   font-family: $font_family-primary;
@@ -685,10 +688,10 @@ sub {
   text-transform: uppercase;
 
   li {
-    @media (max-width: $px-breakpoint-primary) {
+    @media (max-width: $px-breakpoint-primary_width) {
       margin-bottom: 36px;
     }
-    @media (min-width: $px-breakpoint-primary) {
+    @media (min-width: $px-breakpoint-primary_width) {
       margin-bottom: 30px;
     }
   
@@ -699,8 +702,8 @@ sub {
 
 
   li:hover {
-    @media (max-width: $px-breakpoint-primary) {}
-    @media (min-width: $px-breakpoint-primary) {}
+    @media (max-width: $px-breakpoint-primary_width) {}
+    @media (min-width: $px-breakpoint-primary_width) {}
   
     text-decoration: line-through;
   }
@@ -713,13 +716,13 @@ sub {
 // ~~~~~~~~~~~~~~~~~~~~
 
 .experience_detail-container {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 5;
     grid-row: 2 / 5;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 3.0% repeat(8, 1fr);
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-column: 2 / 7;
     grid-row: 2 / 7;
     grid-template-columns: repeat(7, 1fr);
@@ -730,11 +733,11 @@ sub {
 }
 
 .experience_detail-content_overview {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 1 / 8;
     grid-row: 2 / 6;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     grid-column: 1 / 5;
     grid-row: 2 / 6;
   }
@@ -742,10 +745,10 @@ sub {
 }
 
 .experience_detail-organization_logo {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     width: 50%;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     width: 40%;
   }
 
@@ -753,13 +756,13 @@ sub {
 
 .experience_detail-organization_overview,
 .experience_detail-organization_challenge {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     letter-spacing: 0.025rem;
     font-weight: $font_weight-regular;
     font-weight: $font_weight-bold;
     line-height: 1.75rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 1.2rem;
     font-weight: $font_weight-semi_bold;
     letter-spacing: 0.1rem;
@@ -770,22 +773,22 @@ sub {
 }
 
 .experience_detail-organization_overview {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     padding-top: 24px; 
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     padding-top: 24px; 
   }
   
 }
 
 .experience_detail-organization_title {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     font-size: 1.6rem;
     margin-bottom: 0.6rem;
     margin-top: 1.2rem;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     font-size: 2.0rem;
     margin-bottom: 0.6rem;
     margin-top: 3.0rem;
@@ -796,12 +799,12 @@ sub {
 }
 
 .experience_detail-content_list {
-  @media (max-width: $px-breakpoint-primary) {
+  @media (max-width: $px-breakpoint-primary_width) {
     grid-column: 1 / 8;
     grid-row: 9 / 12;
     // margin-top: 18px;
   }
-  @media (min-width: $px-breakpoint-primary) {
+  @media (min-width: $px-breakpoint-primary_width) {
     align-self: center;
     grid-column: 6 / 8;
     grid-row: 2 / 7;
@@ -810,18 +813,18 @@ sub {
 }
 
 .experience_detail-content_list {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
   
   font-family: $font_family-primary;
 
   h4 {
-    @media (max-width: $px-breakpoint-primary) {
+    @media (max-width: $px-breakpoint-primary_width) {
       font-size: 0.75rem;
       letter-spacing: 0.2rem;
       margin-bottom: 0.8rem;
     }
-    @media (min-width: $px-breakpoint-primary) {
+    @media (min-width: $px-breakpoint-primary_width) {
       font-size: 0.75rem;
       letter-spacing: 0.2rem;
       margin-bottom: 0.8rem;
@@ -832,10 +835,10 @@ sub {
   }
 
   ul {
-    @media (max-width: $px-breakpoint-primary) {
+    @media (max-width: $px-breakpoint-primary_width) {
       margin-bottom: 1.5rem;
     }
-    @media (min-width: $px-breakpoint-primary) {
+    @media (min-width: $px-breakpoint-primary_width) {
       margin-bottom: 2.5rem;
     }
   
@@ -843,10 +846,10 @@ sub {
     text-transform: lowercase;
 
     li {
-      @media (max-width: $px-breakpoint-primary) {
+      @media (max-width: $px-breakpoint-primary_width) {
         
       }
-      @media (min-width: $px-breakpoint-primary) {
+      @media (min-width: $px-breakpoint-primary_width) {
         font-size: 1.2rem;
         letter-spacing: 0.18rem;
       }
@@ -854,8 +857,8 @@ sub {
     }
     
     .experience_detail-service {
-      @media (max-width: $px-breakpoint-primary) {}
-      @media (min-width: $px-breakpoint-primary) {
+      @media (max-width: $px-breakpoint-primary_width) {}
+      @media (min-width: $px-breakpoint-primary_width) {
         margin-bottom: 12px;
       }
       
@@ -869,32 +872,255 @@ sub {
 }
 // ~~~~~~~~~~~~~~~~~~~~
 
-.collaboration_atf-container {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+.collaboration-container {
+  @media (max-width: $px-breakpoint-primary_width) {
+    grid-column: 2 / 5;
+    grid-row: 2 / 5;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 6.0% repeat(8, 1fr);
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    grid-column: 2 / 7;
+    grid-row: 2 / 7;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 6.0% repeat(6, 1fr);
+  }
   
   display: grid;
-  grid-column: 2 / 7;
-  grid-row: 2 / 8;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 0.25fr 2fr 1fr;
+  font-family: $font_family-primary;
 }
 
-.collaboration_atf-content {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+.collaboration-content {
+  @media (max-width: $px-breakpoint-primary_width) {
+    grid-column: 1 / 9;
+    grid-row: 1 / 5;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    grid-column: 1 / 7;
+    grid-row: 2 / 5;
+  }
   
-  grid-column: 1 / 2;
-  grid-row: 2 / 2;
 }
+
+.collaboration-title {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-weight: $font_weight-light;
+    font-size: 2.0rem; 
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-weight: $font_weight-light;
+    font-size: 3.0rem; 
+  }
+
+}
+
+.collaboration-sub_title {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+    margin-top: 24px;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+    margin-top: 48px;
+  }
+
+}
+
+.collaboration-supporting_copy {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-size: 1.2rem;
+    font-weight: $font_weight-light;
+    letter-spacing: 0.02rem;
+    line-height: 1.8rem;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 1.5rem;
+    font-weight: $font_weight-light;
+    letter-spacing: 0.12rem;
+    line-height: 2.25rem;
+  }
+
+}
+
+.collaboration-availability {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-size: 1.2rem;
+    font-weight: $font_weight-regular;
+    letter-spacing: 0.1rem;
+    margin-top: 36px;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 1.8rem;
+    font-weight: $font_weight-regular;
+    letter-spacing: 0.3rem;
+    margin-top: 54px;
+  }
+  
+  text-transform: lowercase;
+}
+
+.download-container {
+  @media (max-width: $px-breakpoint-primary_width) {
+    grid-column: 1 / 9;
+    grid-row: 7 / 9;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    align-self: end;
+    grid-column: 1 / 6;
+    grid-row: 6 / 8;
+  }
+
+}
+
+.download-links_title {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+  
+  font-size: 1.2rem;
+  font-weight: $font_weight-light;
+  text-transform: uppercase;
+}
+
+.download-links {
+  @media (max-width: $px-breakpoint-primary_width) {
+    margin-top: 12px;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    margin-top: 18px;
+  }
+  
+}
+
+.download-link {
+  @media (max-width: $px-breakpoint-primary_width) {
+    display: inline-flex;
+
+    &:nth-child(1) {
+      display: list-item;
+    }
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    display: inline-flex;
+    padding-left: 9px;
+  }
+  
+  
+  font-size: 1.1rem;
+  font-weight: $font_weight-semi_bold;
+  line-height: 1.4rem;
+  
+  text-transform: lowercase;
+  
+
+  a {
+    @media (max-width: $px-breakpoint-primary_width) {}
+    @media (min-width: $px-breakpoint-primary_width) {
+      letter-spacing: 0.1rem;
+    }
+  
+    font-weight: $font_weight-light;
+    
+    text-transform: uppercase;
+  }
+
+  &:nth-child(1) {
+    @media (max-width: $px-breakpoint-primary_width) {}
+    @media (min-width: $px-breakpoint-primary_width) {}
+  
+    padding-left: 0;
+  }
+
+}
+
 
 .locations-container {
-  @media (max-width: $px-breakpoint-primary) {}
-  @media (min-width: $px-breakpoint-primary) {}
+  @media (max-width: $px-breakpoint-primary_width) {
+    grid-column: 1 / 8;
+    grid-row: 9 / 10;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    grid-column: 8 / 10;
+    grid-row: 2 / 8;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    justify-items: end;
+    text-align: right;
+  }
   
-  display: grid;
-  grid-column: 1 / 5;
-  grid-row: 1 / 2;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
+  display: grid; 
+}
+
+.locations-content {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    align-self: start;
+    grid-row: 1 / 6;
+  }
+
+  
+}
+
+
+.location-header {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 1.8rem;
+    margin-bottom: 60px;
+  }
+  
+  font-weight: $font_weight-light;
+}
+
+.location-container {
+  @media (max-width: $px-breakpoint-primary_width) {
+    display: inline-flex;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {}
+  
+}
+
+.location {
+  @media (max-width: $px-breakpoint-primary_width) {
+    margin-right: 30px;
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    margin-bottom: 72px;
+  }
+  
+  &:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+}
+
+.location-name {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 1.8rem;
+  }
+
+  text-transform: uppercase;
+}
+
+.location-time {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 2.0rem;
+    margin: 18px 0 9px;
+  }
+
+  font-weight: $font_weight-light;
+}
+
+
+
+.location-email {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 1.2rem;
+  }
+  
+  font-weight: $font_weight-light;
+  text-transform: lowercase;
 }
