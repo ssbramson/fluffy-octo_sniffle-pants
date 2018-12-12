@@ -21,7 +21,7 @@ new Vue({
       `,
       `
       <div class="">
-        I developed a desire and passion for [n], [n], and [n].
+        I developed a desire and passion for meta-data, blending in-person and online engagament, and user experience.
       </div>
       `,
       `
@@ -36,7 +36,7 @@ new Vue({
       `,
       `
       <div class="">
-        Which was recongized and awarded by [a], [a], and [a].
+        Which was recongized and awarded by The Business Journal, The Massachusetts Innovation & Technology Exchange, and The Future Forward Leadership Summit.
       </div>
       `,
       `
