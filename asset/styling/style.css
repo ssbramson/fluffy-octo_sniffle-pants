@@ -71,9 +71,15 @@ sub {
   grid-template-columns: 6% repeat(2, 1fr) 6%;
   grid-template-rows: 1fr; }
 
-.global_navigation-logo-container,
-.global_navigation-icon-container {
-  font-size: 1.8rem; }
+@media (max-width: 760px) {
+  .global_navigation-logo-container,
+  .global_navigation-icon-container {
+    font-size: 1.5rem; } }
+
+@media (min-width: 760px) {
+  .global_navigation-logo-container,
+  .global_navigation-icon-container {
+    font-size: 1.8rem; } }
 
 .global_navigation-logo-container {
   font-family: "Josefin Sans", monospace;
@@ -101,7 +107,7 @@ sub {
   grid-template-columns: 6% 1fr 2fr 6%;
   grid-template-rows: 96px 1fr 2fr 6%;
   position: absolute;
-  height: 100%;
+  min-height: 100vh;
   overflow: scroll;
   right: 0;
   top: 0;
@@ -424,6 +430,9 @@ sub {
   @media (max-width: 760px) {
     .experience-client-links li {
       margin-bottom: 36px; } }
+  @media (max-width: 760px) and (max-height: 667px) {
+    .experience-client-links li {
+      margin-bottom: 24px; } }
   @media (min-width: 760px) {
     .experience-client-links li {
       margin-bottom: 30px; } }

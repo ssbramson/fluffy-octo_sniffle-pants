@@ -18,14 +18,10 @@ new Vue({
           <li class="capability skill">Brand Messaging</li>
           <li class="capability skill">User Experience</li>
           <li class="capability tool">Twilio</li>
-          
           <li class="capability skill">Gnatt Charts</li>
           <li class="capability skill">Organization Structure</li>
-          
           <li class="capability tool">Zendesk</li>
           <li class="capability certification">Social Customer Care</li>
-          
-          
           
           
           <!-- <li class="capability skill">Acquisition</li> -->
@@ -36,12 +32,16 @@ new Vue({
 
       <div class="capability-types-title">
         <ul class="capability-types">
+            <li class="capability-type">I'm</li>
             <li class="capability-type">
-             <a href="capabilities-detail.html">I'm</a>
+              <a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#skills">certified</a>
             </li>
-            <li class="capability-type"><a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#skills">certified</a></li>
-            <li class="capability-type"><a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#certifications">use</a></li>
-            <li class="capability-type"><a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#platforms">know</a></li>
+            <li class="capability-type">
+              <a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#certifications">use</a>
+            </li>
+            <li class="capability-type">
+              <a href="http://ssbs-macbook-pro.local:5757/capabilities-detail.html#platforms">know</a>
+            </li>
         </ul>
       </div>
       
