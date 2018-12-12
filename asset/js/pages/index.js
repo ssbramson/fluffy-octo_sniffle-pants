@@ -17,7 +17,6 @@ new Vue({
             </li>
           </ul>
         </p>
-  
         
       </div>
     </div>
@@ -27,17 +26,13 @@ new Vue({
     indexClientLinks: [
       { linkTitle: 'Blackberry', linkURL: 'experience-blackberry.html' },
       { linkTitle: 'Google', linkURL: 'experience-google.html' },
-      { linkTitle: 'Milky Way', linkURL: 'experience-milkyway.html' },
+      { linkTitle: 'Milky Way', linkURL: 'experience-milky_way.html' },
       { linkTitle: 'Kendrick Lamar', linkURL: 'experience-kendrick_lamar.html' },
-      
-      { linkTitle: 'Procter & Gamble', linkURL: 
-      'experience-procter_gamble.html' },
-      
+      { linkTitle: 'Procter & Gamble', linkURL: 'experience-procter_gamble.html' },
       { linkTitle: 'Ford Automotive', linkURL: 'experience-ford.html' },
       { linkTitle: 'Spotify Music', linkURL: 'experience-spotify.html' },
       { linkTitle: 'Thomson Reuters', linkURL: 'experience-thomson_reuters.html' },
       { linkTitle: 'Playtex Tampons', linkURL: 'experience-playtex.html' }
-      
     ]
   }
 })
